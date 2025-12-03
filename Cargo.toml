@@ -11,7 +11,7 @@ edition = "2021"
 categories = ["development-tools::testing", "os", "no-std"]
 
 [dependencies]
-cxx = { version = "1.0", default-features = false, features = ["alloc"] }
+cxx = { version = "1.0.190", default-features = false, features = ["alloc"] }
 
 [build-dependencies]
 cmake = "0.1.54"
